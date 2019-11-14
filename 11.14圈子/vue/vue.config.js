@@ -1,0 +1,9 @@
+module.exports={
+    devServer:{
+        proxy:{
+            "/api":{
+                target:"http://loaclhost:7001"
+            }
+        }
+    }
+}
